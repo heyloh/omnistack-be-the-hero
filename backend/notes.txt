@@ -1,0 +1,26 @@
+/**
+ * Métodos HTTP:
+ * 
+ * GET: Buscar/Listar informação no Back-end
+ * POST: Criar informação no Back-end
+ * PUT: Alterar informação no Back-end
+ * DELETE: Deletar informação no Back-end
+ * 
+ */
+
+/**
+ * Tipos de parâmetros:
+ * 
+ * Query Params: Parâmetros nomeados enviados na 
+ * rota após o "?" (filtros, paginação)
+ * Route Params: Parâmetros utilizados 
+ * para identificar recursos
+ * Request Body: Corpo da requisição, utilizado
+ * para criar ou alterar recursos
+ */
+
+/**
+ * Driver: SELECT * FROM users
+ * Query Builder: table('users').select('*').where()
+ * knex.js
+ */

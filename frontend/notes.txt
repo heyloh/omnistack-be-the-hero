@@ -1,0 +1,30 @@
+_Cria-se um componente_ para um código que irá se
+repetir muitas vezes durante a Aplicação
+ou para um código que podemos isolar sem
+que ele faça diferença no restante da Aplicação
+
+*Componente* é uma função que retorna HTML
+JSX (JavaScript XML) - HTML integrado no JS
+
+*State(estado)* é uma informação que precisa
+ser mantida pelo componente. Diferente de quando
+guardamos uma informação em uma variavel comum,
+ao fazer uma alteração no state o react irá renderizar
+essas alterações em tela.
+```JS
+    //exemplo do uso do State
+    import React, {useState} from 'react';
+
+    const [counter, setCounter] = useState(0);
+    
+    function increment(){
+        setCounter(counter + 1);
+    }
+
+    return(
+        <div>
+            <Header>Contador: {counter}</Header>
+            <button onClick={increment}>Incrementar</button>
+        </div>
+    );
+```

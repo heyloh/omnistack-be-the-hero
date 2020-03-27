@@ -1,0 +1,16 @@
+Não existe herança de estilos no React Native
+
+As tags não tem semântica, ou seja, todo texto estará
+em uma tag <Text>, sendo ele h1, p, etc. O mesmo pros
+outros elementos.
+
+Tudo é Flex
+
+Toda estilização vem da propriedade style.
+style={styles.title}
+
+styles deve ser criado como um stylesheet no arquivo
+para definir a estilização dos elementos.
+
+Assim como o BrowserRouter no react, no react Native
+usamos o NavigationContainer por volta de todas as rotas
